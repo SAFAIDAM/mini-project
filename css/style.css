@@ -7,7 +7,7 @@ body{
 }
 .logo{
   width: 100px;
-}
+  }
 li{
   text-decoration: none;
 }
@@ -15,6 +15,7 @@ li{
   position: relative;
   text-align: center;
   top: -60px;
+  display: flex;
 }
 nav li{
   display: inline;
@@ -25,6 +26,7 @@ nav li{
   padding: 10px 80px 10px;
   border-radius: 30px;
   top: 200px;
+  justify-content: center;
   
   
 }
@@ -32,6 +34,12 @@ nav li:hover{
   background-color: #eabf54;
   color: white !important;
   
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 section, .agadir {
   background-color: #a47757fb;
@@ -89,7 +97,6 @@ footer, .p{
  color: #924445;
  font-weight: bold;
  font-family: "open sans";
- width: 300px;
 }
 a{
   text-decoration: none;
